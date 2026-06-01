@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小北門後巷計畫 — 基地分析</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="site-title">小北門後巷計畫<span>｜</span></a>
+    <nav>
+      <a href="index.html">0號筆記</a>
+      <a href="site-analysis.html" class="active">基地分析</a>
+      <a href="inspiration.html">建築靈感</a>
+      <a href="kyoto-machiya.html">京都町屋研究</a>
+      <a href="architect-notes.html">建築師討論</a>
+      <a href="sketches.html">設計草圖</a>
+      <a href="construction-log.html">施工日誌</a>
+      <a href="future-vision.html">未來生活構想</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner fade-in">
+    <p class="section-label">基地分析 · Site Analysis</p>
+    <h1>環境、量體與條件</h1>
+    <p style="font-size:0.88rem; color:var(--ink-soft); margin-top:0.5rem; max-width:50ch;">
+      透過實地測量、日照模擬與鄰里訪談，建立基地的完整空間理解。
+    </p>
+  </div>
+</div>
+
+<div class="page-body">
+
+  <section style="margin-top:3rem;">
+    <p class="section-label">基本數據 · Data</p>
+    <h2 class="section-title">基地概況</h2>
+    <div class="three-col">
+      <div>
+        <div class="number-large">140</div>
+        <p class="section-label">坪數（基地面積）</p>
+        <p>後巷全長約 36 公尺，寬度 7 公尺不等，呈南北向略微偏斜的約140坪的L形空間。</p>
+      </div>
+      <div>
+        <div class="number-large">2F</div>
+        <p class="section-label">鄰棟高度</p>
+        <p>兩側建築各為 2-3 層樓，形成明顯的「峽谷效應」，午前日照充足，午後大部分遮蔽。</p>
+      </div>
+      <div>
+        <div class="number-large">53%</div>
+        <p class="section-label">日照覆蓋率（夏至）</p>
+        <p>以夏至日為基準模擬，後巷南段受陽最多，北段因鄰棟角度遮蔽，全日陰涼。</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Site diagram -->
+  <section>
+    <p class="section-label">平面示意 · Plan Diagram</p>
+    <h2 class="section-title">基地配置圖</h2>
+
+    <svg class="hero-diagram" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- 使用 image 標籤填滿 SVG 寬高 -->
+      <image href="./images/land1.jpg" width="600" height="380" x="0" y="0"/>
+    </svg>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Environmental conditions -->
+  <section>
+    <p class="section-label">環境條件 · Environment</p>
+    <h2 class="section-title">氣候與微氣候</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>項目</th>
+          <th>觀測值 / 描述</th>
+          <th>設計回應方向</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>年均溫</td>
+          <td>24.5°C（台南市均值）</td>
+          <td>以遮蔭與通風為優先，整體保留大量綠意，減少人工冷卻需求</td>
+        </tr>
+        <tr>
+          <td>夏季午後西曬</td>
+          <td>15:00—17:30 直射，東西向面寬有限</td>
+          <td>西牆設置綠牆或樹或深遮陽或格柵緩衝與屋頂太陽能板</td>
+        </tr>
+        <tr>
+          <td>年均降雨量</td>
+          <td>1,700 mm，集中於 6—9 月</td>
+          <td>後巷地面採透水鋪面，設導排水溝，地勢東高西低，由東向西排水</td>
+        </tr>
+        <tr>
+          <td>主導風向</td>
+          <td>東北季風（冬季），西南風（夏季）</td>
+          <td>兩側南北開口設計為對流通道</td>
+        </tr>
+        <tr>
+          <td>噪音來源</td>
+          <td>略</td>
+          <td>植栽作為聲音緩衝層</td>
+        </tr>
+        <tr>
+          <td>地下水位</td>
+          <td>地表下 1.2 m（雨季期間）</td>
+          <td>基礎設計避免地下室；採架高地坪，西側可做滯洪or雨水花園</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Zoning & constraints -->
+  <section>
+    <p class="section-label">法規條件 · Regulations</p>
+    <h2 class="section-title">使用分區與限制</h2>
+    <div class="two-col">
+      <div>
+        <h3>使用分區</h3>
+        <p>屬台南市都市計畫「第三種住宅區」，容積率 225%，建蔽率 55%。</p>
+      </div>
+      <div>
+        <h3>主要限制事項-待紀錄</h3>
+        <div class="tag-list" style="flex-direction:column; gap:0.4rem;">
+          <span class="tag">建物高度限__</span>
+          <span class="tag">立面材料須與歷史街區協調?</span>
+          <span class="tag accent">前巷建地縮減？</span>
+          <span class="tag">屋頂廣告設施禁設</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  小北門後巷計畫 &emsp;|&emsp; 台南市北區 &emsp;|&emsp; 2026
+</footer>
+
+</body>
+</html>

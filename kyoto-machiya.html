@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小北門後巷計畫 — 京都町屋研究</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="site-title">小北門後巷計畫<span>｜</span></a>
+    <nav>
+      <a href="index.html">0號筆記</a>
+      <a href="site-analysis.html">基地分析</a>
+      <a href="inspiration.html">建築靈感</a>
+      <a href="kyoto-machiya.html" class="active">京都町屋研究</a>
+      <a href="architect-notes.html">建築師討論</a>
+      <a href="sketches.html">設計草圖</a>
+      <a href="construction-log.html">施工日誌</a>
+      <a href="future-vision.html">未來營運</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-inner fade-in">
+    <p class="section-label">京都町屋研究 · Kyoto Machiya Study</p>
+    <h1>通り庭的空間哲學</h1>
+    <p style="font-size:0.88rem; color:var(--ink-soft); margin-top:0.5rem; max-width:52ch;">
+      2023 年 10 月，設計團隊赴京都進行為期五天的田野研究。
+      這份文件記錄了我們對町屋空間原型的理解，以及如何將其轉化為台南語境的設計回應。
+    </p>
+  </div>
+</div>
+
+<div class="page-body">
+
+  <section style="margin-top:3rem;">
+    <p class="section-label">什麼是町屋 · What is Machiya</p>
+    <h2 class="section-title">町屋的空間原型</h2>
+    <div class="two-col">
+      <div>
+        <p>
+          「町屋」（まちや / machiya）是日本傳統的城市商業住宅形式，以「間口狹、奧行深」
+          為基本特徵——臨街面窄（通常 4—6 公尺），縱深可達 30 公尺以上。
+        </p>
+        <p>
+          町屋的空間序列是：店面（みせ）→ 通り庭（走廊兼工作區）→ 居間（起居室）→
+          坪庭（小中庭）→ 座敷（正式客廳）→ 奧庭（後院）。
+          這種「串珠式」的空間組織方式，是應對高密度城市肌理的傳統智慧。
+        </p>
+      </div>
+      <div>
+        <p>
+          「通り庭」是町屋的靈魂：它是地面層中央的一條土間（夯土地面）通道，
+          從正面貫穿至後庭，兼具交通、通風、採光與工作的多重功能。
+        </p>
+        <div class="blockquote">
+          「通り庭不只是走廊，它是整棟房子的脊椎——所有空間都靠它來呼吸。」
+          <br><small>— 田野訪談，上田工務店，2023.10.14</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Spatial diagram -->
+  <section>
+    <p class="section-label">空間剖析 · Spatial Analysis</p>
+    <h2 class="section-title">町屋平面示意</h2>
+
+    <svg viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg" style="width:100%; max-width:680px; display:block; margin: 1.5rem 0 2rem;">
+      <rect width="640" height="200" fill="#ede5d4" rx="3"/>
+
+      <!-- Street -->
+      <rect x="0" y="0" width="80" height="200" fill="#ddd3bc"/>
+      <text x="40" y="106" fill="#7a6a5a" font-size="9" text-anchor="middle" font-family="sans-serif" transform="rotate(-90, 40, 106)">通 街</text>
+
+      <!-- Spaces sequence -->
+      <!-- みせ shop -->
+      <rect x="80" y="20" width="80" height="160" fill="#c4b89a" stroke="#b0a090" stroke-width="1"/>
+      <text x="120" y="98" fill="#5a4a3a" font-size="8" text-anchor="middle" font-family="sans-serif">み</text>
+      <text x="120" y="110" fill="#5a4a3a" font-size="8" text-anchor="middle" font-family="sans-serif">せ</text>
+      <text x="120" y="126" fill="#7a6a5a" font-size="7" text-anchor="middle" font-family="sans-serif">店面</text>
+
+      <!-- 通り庭 -->
+      <rect x="160" y="20" width="50" height="160" fill="#f5f0e8" stroke="#9b4a2a" stroke-width="1.2" stroke-dasharray="5,3"/>
+      <text x="185" y="95" fill="#9b4a2a" font-size="7" text-anchor="middle" font-family="sans-serif" transform="rotate(-90,185,100)">通り庭</text>
+
+      <!-- 居間 -->
+      <rect x="210" y="20" width="70" height="160" fill="#ccc0a8" stroke="#b0a090" stroke-width="1"/>
+      <text x="245" y="106" fill="#5a4a3a" font-size="8" text-anchor="middle" font-family="sans-serif">居 間</text>
+
+      <!-- 坪庭 -->
+      <rect x="280" y="20" width="50" height="160" fill="#a8b890" stroke="#7a8f6a" stroke-width="1"/>
+      <text x="305" y="106" fill="#3a4a2a" font-size="8" text-anchor="middle" font-family="sans-serif">坪 庭</text>
+
+      <!-- 座敷 -->
+      <rect x="330" y="20" width="80" height="160" fill="#ccc0a8" stroke="#b0a090" stroke-width="1"/>
+      <text x="370" y="106" fill="#5a4a3a" font-size="8" text-anchor="middle" font-family="sans-serif">座 敷</text>
+
+      <!-- 奥庭 -->
+      <rect x="410" y="20" width="80" height="160" fill="#a8b890" stroke="#7a8f6a" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="450" y="106" fill="#3a4a2a" font-size="8" text-anchor="middle" font-family="sans-serif">奥 庭</text>
+
+      <!-- 後ろ口 rear -->
+      <rect x="490" y="20" width="50" height="160" fill="#ddd3bc" stroke="#b0a090" stroke-width="1"/>
+      <text x="515" y="106" fill="#7a6a5a" font-size="7" text-anchor="middle" font-family="sans-serif" transform="rotate(-90,515,106)">後 出 口</text>
+
+      <!-- Flow arrow -->
+      <line x1="100" y1="185" x2="500" y2="185" stroke="#9b4a2a" stroke-width="1" opacity="0.6" marker-end="url(#arrow)"/>
+      <defs>
+        <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#9b4a2a" opacity="0.6"/>
+        </marker>
+      </defs>
+      <text x="300" y="196" fill="#9b4a2a" font-size="7" text-anchor="middle" font-family="sans-serif" opacity="0.8">空間深度 → 約 30 m</text>
+    </svg>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Field notes -->
+  <section>
+    <p class="section-label">田野筆記 · Field Notes</p>
+    <h2 class="section-title">京都現場觀察</h2>
+
+    <div class="log-entry">
+      <div class="log-date">2023.10.12<br><small>上午</small></div>
+      <div>
+        <span class="log-tag">祇園・白川筋</span>
+        <h3>格子戸的層次感</h3>
+        <p>
+          町屋立面的格子戸（こうしど）設計精妙：由外到內視線逐漸模糊，但光線幾乎不減弱。
+          白天室外看不清室內，但室內光線充足。這種「單向透明性」值得在後巷的半公共空間中借鑒。
+        </p>
+      </div>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-date">2023.10.12<br><small>下午</small></div>
+      <div>
+        <span class="log-tag">中京區・室町通</span>
+        <h3>通り庭的溫度差</h3>
+        <p>
+          通り庭的土間地面（夯土或石板）有明顯的蓄冷效果。即使是炎熱的秋日午後，
+          踏入通り庭後立刻感受到 3—4°C 的溫降。這個被動式降溫原理直接適用於後巷地面材料的選擇。
+        </p>
+      </div>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-date">2023.10.13</div>
+      <div>
+        <span class="log-tag">東山區・寧寧之道</span>
+        <h3>「隙間」的美學</h3>
+        <p>
+          日語「隙間」（すきま）意指縫隙、間隙。京都的街屋之間保留了大量不規則的隙間，
+          有些寬僅 40 公分，卻長出苔蘚、藏著小神龕、流過一線天光。
+          後巷本身就是一個放大版的「隙間」，設計應保留這種不完整、非正式的質感。
+        </p>
+      </div>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-date">2023.10.14</div>
+      <div>
+        <span class="log-tag">訪談 · 上田工務店</span>
+        <h3>修復的哲學：「継ぎ」</h3>
+        <p>
+          訪談了專事町屋修復的上田工務店（第三代）。他們採用的修復哲學源自日本傳統工藝的「継ぎ」
+          （繼，接補）概念——破損處不掩蓋，以新材料清晰標示修補位置，使建築成為可閱讀的時間文件。
+          這與金繼（金継ぎ）的美學精神一脈相承。
+        </p>
+      </div>
+    </div>
+
+    <div class="log-entry">
+      <div class="log-date">2023.10.15</div>
+      <div>
+        <span class="log-tag">西陣・堀川通</span>
+        <h3>町屋的聲音景觀</h3>
+        <p>
+          最後一天刻意在不同時段記錄町屋周邊的聲音：早晨掃地聲、水聲、鄰里寒暄；
+          午後紡織機聲（西陣織工坊）；黃昏時分，佛龕線香的氣味與遠處鐘聲混合成一種難以名狀的氛圍。
+          聲音是空間記憶的重要載體，後巷的聲音設計不能忽略。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- Comparison table -->
+  <section>
+    <p class="section-label">比較分析 · Comparison</p>
+    <h2 class="section-title">京都町屋 vs 台南後巷</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>項目</th>
+          <th>京都町屋</th>
+          <th>小北門後巷</th>
+          <th>設計轉化方向</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>空間形態</td>
+          <td>間口狹、奧行深的個別建築單元</td>
+          <td>兩棟建築夾出的線性公共通道</td>
+          <td>借用「通廊貫穿」的空間邏輯</td>
+        </tr>
+        <tr>
+          <td>地面材料</td>
+          <td>土間（夯土、石板）</td>
+          <td>現況混凝土，待更新</td>
+          <td>採用燒面石板，保留蓄冷效果</td>
+        </tr>
+        <tr>
+          <td>採光方式</td>
+          <td>坪庭天井引光至深處</td>
+          <td>兩端開口、局部開天窗</td>
+          <td>在後巷中段設置局部透明頂蓋</td>
+        </tr>
+        <tr>
+          <td>立面處理</td>
+          <td>木格子戸、透光不透視</td>
+          <td>磚牆為主，少有開口</td>
+          <td>在適當位置設格柵框景窗</td>
+        </tr>
+        <tr>
+          <td>植栽</td>
+          <td>坪庭中精心佈置庭園</td>
+          <td>目前無植栽</td>
+          <td>以盆栽群落與爬藤取代正式庭園</td>
+        </tr>
+        <tr>
+          <td>氣候條件</td>
+          <td>四季分明，冬季嚴寒</td>
+          <td>亞熱帶，全年溫熱</td>
+          <td>強調通風與遮蔭，弱化保暖考量</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</div>
+
+<footer>
+  小北門後巷計畫 &emsp;|&emsp; 台南市北區 &emsp;|&emsp; 2026
+</footer>
+
+</body>
+</html>
